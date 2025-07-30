@@ -193,7 +193,7 @@ Partial Class frmMain
         'ToolStripStatusLabel1
         '
         Me.ToolStripStatusLabel1.Name = "ToolStripStatusLabel1"
-        Me.ToolStripStatusLabel1.Size = New System.Drawing.Size(36, 17)
+        Me.ToolStripStatusLabel1.Size = New System.Drawing.Size(35, 17)
         Me.ToolStripStatusLabel1.Text = "Total:"
         '
         'SplitContainer1
@@ -302,7 +302,7 @@ Partial Class frmMain
         Me.txtSearchEntry.Location = New System.Drawing.Point(5, 80)
         Me.txtSearchEntry.Margin = New System.Windows.Forms.Padding(5, 5, 7, 4)
         Me.txtSearchEntry.Name = "txtSearchEntry"
-        Me.txtSearchEntry.Size = New System.Drawing.Size(189, 23)
+        Me.txtSearchEntry.Size = New System.Drawing.Size(189, 20)
         Me.txtSearchEntry.TabIndex = 0
         '
         'listWord
@@ -457,8 +457,8 @@ Partial Class frmMain
         Me.txtWord.Font = New System.Drawing.Font("Courier New", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.txtWord.Location = New System.Drawing.Point(100, 0)
         Me.txtWord.Margin = New System.Windows.Forms.Padding(0)
-        Me.txtWord.Name = "txtSearchEntry"
-        Me.txtWord.Size = New System.Drawing.Size(496, 23)
+        Me.txtWord.Name = "txtWord"
+        Me.txtWord.Size = New System.Drawing.Size(496, 20)
         Me.txtWord.TabIndex = 0
         '
         'txtPronounciation
@@ -467,8 +467,8 @@ Partial Class frmMain
         Me.txtPronounciation.Font = New System.Drawing.Font("Courier New", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.txtPronounciation.Location = New System.Drawing.Point(100, 25)
         Me.txtPronounciation.Margin = New System.Windows.Forms.Padding(0)
-        Me.txtPronounciation.Name = "txtSearchEntry"
-        Me.txtPronounciation.Size = New System.Drawing.Size(496, 23)
+        Me.txtPronounciation.Name = "txtPronounciation"
+        Me.txtPronounciation.Size = New System.Drawing.Size(496, 20)
         Me.txtPronounciation.TabIndex = 0
         '
         'txtDerive
@@ -478,8 +478,8 @@ Partial Class frmMain
         Me.txtDerive.Font = New System.Drawing.Font("Courier New", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.txtDerive.Location = New System.Drawing.Point(100, 50)
         Me.txtDerive.Margin = New System.Windows.Forms.Padding(0)
-        Me.txtDerive.Name = "txtSearchEntry"
-        Me.txtDerive.Size = New System.Drawing.Size(496, 23)
+        Me.txtDerive.Name = "txtDerive"
+        Me.txtDerive.Size = New System.Drawing.Size(496, 21)
         Me.txtDerive.TabIndex = 0
         '
         'ButtonSpecAny1
@@ -527,8 +527,8 @@ Partial Class frmMain
         Me.txtEtymology.Font = New System.Drawing.Font("Courier New", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.txtEtymology.Location = New System.Drawing.Point(100, 75)
         Me.txtEtymology.Margin = New System.Windows.Forms.Padding(0)
-        Me.txtEtymology.Name = "txtSearchEntry"
-        Me.txtEtymology.Size = New System.Drawing.Size(496, 23)
+        Me.txtEtymology.Name = "txtEtymology"
+        Me.txtEtymology.Size = New System.Drawing.Size(496, 21)
         Me.txtEtymology.TabIndex = 0
         '
         'ButtonSpecAny2
@@ -989,7 +989,7 @@ Partial Class frmMain
         'btSave
         '
         Me.btSave.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image
-        Me.btSave.Image = Global.Dictionary_Maker.My.Resources.Resources.save
+        Me.btSave.Image = Global.Dictionary_Maker.My.Resources.Resources.Save
         Me.btSave.ImageTransparentColor = System.Drawing.Color.Magenta
         Me.btSave.Name = "btSave"
         Me.btSave.Size = New System.Drawing.Size(23, 22)
